@@ -59,7 +59,55 @@ caption{
     color: #050505;
 }
 
-{
+.verhorarios {
+    justify-content: center;
+    text-align: center;
+}
 
-    justify-content: center; 
+.botaohorarios {
+    justify-content: center;
+    background-color: #ff63dd;
+    color: white;
+    text-decoration: none;
+    padding: 13px 18px;
+
+    border-radius: 8px;
+    font-size: 20px;
+    font-family:serif 
+}
+
+.botaohome {
+    justify-content: center;
+    text-align: center;
+    padding: 20px 20px;
+    
+}
+
+.verbotaohome {
+    justify-content: center;
+    background-color: #ff63dd;
+    color: white;
+    text-decoration: none;
+    padding: 13px 18px;
+
+    border-radius: 8px;
+    font-size: 20px;
+    font-family:serif 
+}
+
+
+.botaomidia {
+    justify-content: space-around;
+
+    
+    background-color: #ff63dd;
+
+    color: white;
+
+    text-decoration: none;
+    padding: 1px 10px;
+
+    border-radius: 8px;
+    font-size: 15px;
+    font-family:serif 
 }
