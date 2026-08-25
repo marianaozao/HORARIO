@@ -1,113 +1,135 @@
-
-html, body {
-    height: 100%;
-    margin: 0;
-}
-
 body {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    text-align: center;
+}
+
+header {
+    padding: 10px 20px;
+    background-color: #ffe3f7;
+}
+
+nav {
     display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+    justify-content: center;
+    gap: 30px;
 }
 
-main {
-    flex: 1;
+.botaohorarios:hover {
+    background-color: rgba(209, 136, 193, 0.425);
+    transform: scale(1.1);
 }
 
-#rodape {
+.INICIO {
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
 
+section {
+    background-color: #fae4f3;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.bemvindo {
+    color: #4b2840;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+}
+
+.bemvindo:hover {
+    background-color: #f7cde9bb;
+    transform: scale(1.1);
+}
+
+
+}
+.sobremim {
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+}
+ul {
+    list-style: none;
+}
+footer {
     background-color: #f8b6e4;
     padding: 20px;
     text-align: center;
-
 }
-table {
-    border: 1px solid; 
-    color: #020202;
-
-    border-collapse: collapse;
-    width: 100%;
-    margin-top: 10px;
-    style="text-align: center;"
-
-}
-td, th{
-     color: rgb(0, 0, 0);
-   font-family: Arial, sans-serif;
-    border: 1px solid black;
-    padding: 7px;
-    text-align: center;
-}
-th{
-    text-transform: uppercase; 
-     font-weight: bold;
-    background-color: #f8b6e4;
-    color: #080505;
-}
-caption{
-
+caption {
     background-color: rgb(252, 230, 247);
     color: rgb(0, 0, 0);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
 }
-
-.HORA{
-     text-transform: uppercase; 
-     font-weight: bold;
+table {
+    border: 1px solid;
+    color: #020202;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+}
+td,
+th {
+    color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+    border: 1px solid black;
+    padding: 7px;
+    text-align: center;
+}
+th {
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #f8b6e4;
+    color: #080505;
+}
+.HORA {
+    text-transform: uppercase;
+    font-weight: bold;
     background-color: #ffcbef;
     color: #050505;
 }
-
-.verhorarios {
-    justify-content: center;
-    text-align: center;
-}
-
 .botaohorarios {
     justify-content: center;
     background-color: #ff63dd;
     color: white;
     text-decoration: none;
     padding: 13px 18px;
-
     border-radius: 8px;
     font-size: 20px;
-    font-family:serif 
+    font-family: serif
 }
-
 .botaohome {
+    background-color: #ff63dd;
+    color: white;
+    text-decoration: none;
     justify-content: center;
     text-align: center;
     padding: 20px 20px;
-    
-}
-
-.verbotaohome {
-    justify-content: center;
-    background-color: #ff63dd;
-    color: white;
-    text-decoration: none;
-    padding: 13px 18px;
-
     border-radius: 8px;
     font-size: 20px;
-    font-family:serif 
+    font-family: serif
 }
-
-
 .botaomidia {
     justify-content: space-around;
-
-    
     background-color: #ff63dd;
-
     color: white;
-
     text-decoration: none;
     padding: 1px 10px;
-
     border-radius: 8px;
     font-size: 15px;
-    font-family:serif 
+    font-family: serif
+}
+.contatos {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
 }
