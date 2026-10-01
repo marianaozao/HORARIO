@@ -115,7 +115,9 @@ footer {
      color: #f2dcd5;
 }
 
-/*==== ESTILIZAÇAO DAS TABELAS PAGINA HORARIOS ==== */
+
+
+/*==== ESTILIZAÇAO DAS TABELAS PAGINA HORARIOS (3° BIM)  ==== */
 
 .cabecalho-horario {
     text-align: center;
@@ -125,15 +127,23 @@ footer {
     font-weight: 30px;
 }
 
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
 .botaohome {
     background-color: #6c0820;
     color: #F2DCD5 ;
     text-decoration: none;
     justify-content: center;
     text-align: center;
-    padding: 20px 20px;
+    padding: 15px 20px;
     border-radius: 8px;
-    font-size: 20px;
+    font-size: 650;
     font-family: serif
 }
 
@@ -181,8 +191,7 @@ th {
     color: #f2dcd5;
 }
 
-
-
+/* ESTILIZAÇAO PAGINA DE HORARIOS 4° BIM */
 
 
 /* ESTILIZAÇAO DOS BOTOES DE CONTATOS E MIDIAS SOCIAIS */
